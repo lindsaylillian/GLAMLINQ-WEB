@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+html{
+  scroll-behavior:smooth;
+}
+
+body{
+  margin:0;
+  background:#faf9f7;
+  color:#111;
+  font-family:'Poppins',sans-serif;
+}
+
+h1,h2,h3,h4{
+  font-family:'Cormorant Garamond',serif;
+}
+
+.script{
+  font-family:'Allura',cursive;
+  font: weight 400px;
+}
+
+.container-width{
+  max-width:1280px;
+  margin:auto;
+}
