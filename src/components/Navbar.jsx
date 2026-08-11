@@ -1,6 +1,7 @@
+import { Link } from "react-router-dom";
 export default function Navbar() {
   return (
-    <nav className="sticky top-0 z-50 bg-[#ebebeb0e] border-b border-gray-200">
+    <nav className=" bg-[#EBEBEB]/90 backdrop-blur-md border-b border-gray-200">
 
       <div className="container-width h-[90px] flex items-center justify-between px-8">
 
@@ -52,11 +53,25 @@ export default function Navbar() {
 
         {/* Button */}
 
-        <button className="hidden lg:block border border-black rounded-full px-10 py-3 uppercase tracking-wide hover:bg-black hover:text-white transition">
-
-          Book Now
-
-        </button>
+        <Link
+  to="/booking"
+  className="
+    hidden
+    lg:block
+    border
+    border-black
+    rounded-full
+    px-10
+    py-3
+    uppercase
+    tracking-wide
+    hover:bg-black
+    hover:text-white
+    transition
+  "
+>
+  Book Now
+</Link>
 
       </div>
 

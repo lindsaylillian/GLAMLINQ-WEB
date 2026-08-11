@@ -1,6 +1,6 @@
 import heroMain from "../assets/images/hero-main.jpg";
 import heroSmall from "../assets/images/hero-small.jpg";
-
+import { Link } from "react-router-dom";
 
 export default function Hero() {
   return (
@@ -62,19 +62,23 @@ export default function Hero() {
               leave lasting memories.
             </p>
 
-            <button className="
-              mt-10
-              border
-              border-black
-              px-10
-              py-4
-              rounded-full
-              hover:bg-black
-              hover:text-white
-              transition
-            ">
-              BOOK YOUR SESSION
-            </button>
+          <Link
+  to="/booking"
+  className="
+    inline-block
+    mt-12
+    border
+    border-black
+    px-10
+    py-4
+    rounded-full
+    hover:bg-black
+    hover:text-white
+    transition
+  "
+>
+  BOOK YOUR SESSION
+</Link>
 
           </div>
 

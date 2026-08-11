@@ -119,7 +119,7 @@ const Services = () => {
         <div className="flex justify-center mt-20">
 
           <Link
-            href="#booking"
+            to="/booking"
             className="
               px-12
               py-5

@@ -5,7 +5,7 @@ import AboutStory from "../components/AboutStory";
 import Services from "../components/Services";
 import Portfolio from "../components/Portfolio";
 import FAQ from "../components/FAQ";
-import Booking from "../components/Booking";
+import Booking from "./Booking";
 import Contact from "../components/Contact";
 import Footer from "../components/Footer";
 import MeetArtist from "../components/MeetArtist";
