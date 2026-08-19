@@ -3,17 +3,17 @@ import { motion } from "framer-motion";
 import service1 from "../assets/service1.jpg";
 import service2 from "../assets/service2.jpg";
 import service3 from "../assets/service3.jpg";
-import aboutMain from "../assets/about-main.jpg";
-import aboutBg from "../assets/about-bg.jpg";
-import makeup from "../assets/makeup.jpg";
+import me1 from "../assets/me1.jpg";
+import meg from "../assets/meg.jpg";
+import stara from "../assets/stara.jpg";
 
 const images = [
   service1,
+  meg,
+  me1,
   service2,
   service3,
-  aboutMain,
-  aboutBg,
-  makeup,
+  stara,
 ];
 
 const Portfolio = () => {

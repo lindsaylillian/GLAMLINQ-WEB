@@ -54,7 +54,7 @@ const About = () => {
               src={aboutBg}
               alt=""
               className="
-                w-[400px]
+                w-[600px]
                 h-[720px]
                 object-cover
                 grayscale

@@ -9,9 +9,7 @@ import { FaXTwitter } from "react-icons/fa6";
 
 const Footer = () => {
   const whatsappUrl = "https://wa.me/256776241092";
-
-  // Replace these with your actual GlamLinq social accounts
-  const instagramUrl = "https://www.instagram.com/YOUR_INSTAGRAM";
+  const instagramUrl = "https://www.instagram.com/glam__linq";
   const twitterUrl = "https://x.com/YOUR_TWITTER";
   const snapchatUrl = "https://www.snapchat.com/add/YOUR_SNAPCHAT";
 
@@ -22,49 +20,49 @@ const Footer = () => {
         {/* Top Footer Row */}
         <div className="flex flex-col lg:flex-row items-center justify-between gap-8">
 
-       {/* GlamLinq Logo */}
-{/* GlamLinq Logo */}
-<Link
-  to="/"
-  className="text-[30px] font-light tracking-wide text-black"
->
-  <h1>
-    GLAMLINQ{" "}
-    <span className="script text-[28px] normal-case">
-      by Lindsay
-    </span>
-  </h1>
-</Link>
+          {/* GlamLinq Logo */}
+          <Link
+            to="/"
+            className="text-[30px] font-light tracking-wide text-black"
+          >
+            <h1>
+              GLAMLINQ{" "}
+              <span className="script text-[28px] normal-case">
+                by Lindsay
+              </span>
+            </h1>
+          </Link>
 
-{/* Navigation */}
-<nav className="flex flex-wrap justify-center gap-7 md:gap-9 text-sm md:text-base tracking-wide text-black">
-  <a href="#about" className="hover:opacity-60 transition">
-    ABOUT
-  </a>
+          {/* Navigation */}
+          <nav className="flex flex-wrap justify-center gap-7 md:gap-9 text-sm md:text-base tracking-wide text-black">
+            <Link to="/#about" className="hover:opacity-60 transition">
+              ABOUT
+            </Link>
 
-  <a href="#services" className="hover:opacity-60 transition">
-    SERVICES
-  </a>
+            <Link to="/#services" className="hover:opacity-60 transition">
+              SERVICES
+            </Link>
 
-  <a href="#gallery" className="hover:opacity-60 transition">
-    GALLERY
-  </a>
+            <Link to="/#gallery" className="hover:opacity-60 transition">
+              GALLERY
+            </Link>
 
-  <a href="#faq" className="hover:opacity-60 transition">
-    FAQ
-  </a>
-</nav>
+            <Link to="/#faq" className="hover:opacity-60 transition">
+              FAQ
+            </Link>
+          </nav>
 
           {/* Book Now */}
-          <a
-            href="#booking"
-            className="border border-black rounded-full px-9 py-3 text-sm md:text-base tracking-wide hover:bg-black hover:text-white transition duration-300"
+          <Link
+            to="/booking"
+            className="border border-black rounded-full px-9 py-3 text-sm md:text-base tracking-wide text-black hover:bg-black hover:text-white transition duration-300"
           >
             BOOK NOW
-          </a>
+          </Link>
+
         </div>
 
-        {/* SOCIAL ICONS */}
+        {/* Social Icons */}
         <div className="flex justify-center items-center gap-4 mt-10">
 
           {/* WhatsApp */}
